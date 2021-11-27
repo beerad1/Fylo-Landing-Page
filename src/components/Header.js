@@ -1,8 +1,8 @@
 import React from "react";
 const Header = () => {
   return(
-    <>
-      <a href="#"><img src="./images/logo.svg" /></a>
+    <div>
+      <a href="#" class="logo"><img src="./images/logo.svg" /></a>
       <nav>
         <ul>
           <li><a href="#">Features</a></li>
@@ -10,7 +10,7 @@ const Header = () => {
           <li><a href="#">Sign In</a></li>
         </ul>
       </nav>
-    </>
+    </div>
   )
 }
 
