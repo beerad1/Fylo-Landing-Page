@@ -3,6 +3,10 @@ import GetStarted from "./GetStarted";
 import InfoGrid from "./InfoGrid";
 import Testimonials from "./Testimonials";
 import StayProd from "./StayProd";
+import SignUp from "./SignUp";
+import CompInfo from "./CompInfo";
+import AboutMenu from "./AboutMenu";
+import ContactMenu from "./ContactMenu";
 
 const Body = () => {
     return(
@@ -15,31 +19,17 @@ const Body = () => {
 
             <StayProd />
 
-            <Testimonials /> 
+            <Testimonials />
 
-            Get early access today
+            <SignUp />
 
-            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-            questions, our support team would be happy to help you.
+            <CompInfo />
 
-            Get Started For Free
+            <AboutMenu />
 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-            dolore magna aliqua
+            <ContactMenu />
 
-            +1-543-123-4567
-            example@fylo.com
-
-            About Us
-            Jobs
-            Press
-            Blog
-
-            Contact Us
-            Terms
-            Privacy
         </main>
-
 
     )
 }
