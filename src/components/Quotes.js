@@ -22,6 +22,6 @@ const quotes = [
     },
 ]
 
-export const getQuotes = () => {
-    return quotes;
-};
+// export const getQuotes = () => {
+//     return quotes;
+// };

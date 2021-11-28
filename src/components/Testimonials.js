@@ -1,10 +1,8 @@
 import React from "react";
-import { getQuotes } from "./Quotes";
+import { quotes } from "./Quotes";
 import QuoteBlock from "./QuoteBlock";
 
 const Testimonials = () => {
-
-    const quotes = getQuotes();
 
     const renderQuotes = () =>
         quotes.map((quote) => (
