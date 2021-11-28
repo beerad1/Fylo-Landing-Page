@@ -1,4 +1,34 @@
-.logo {
-    background: url(../images/logo.svg) no-repeat center;
-    background-size: 100%;
+@media only screen and (max-width: 375px) {
+    
+    main {
+        background-color: hsl(218, 28%, 13%);
+        font-family: Open Sans;
+        font-weight: 400, 700;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    
+    a:hover {
+        color: hsl(198, 60%, 50%);
+    }
+
+    main {
+        background-color: hsl(218, 28%, 13%);
+        font-family: Open Sans;
+        font-weight: 400, 700;
+    }
+
+    .aside__left {
+        height: 100vh;
+        width:   10vw;
+        float: left;
+    }
+
+    .aside__right {
+        height: 100vh;
+        width:   10vw;
+        float: right;
+    }
 }
