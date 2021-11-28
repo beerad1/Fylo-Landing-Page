@@ -13,6 +13,8 @@ const Body = () => {
         
         <main>
 
+            <aside class="aside__left" /> 
+
             <GetStarted />
 
             <InfoGrid />
@@ -28,6 +30,8 @@ const Body = () => {
             <AboutMenu />
 
             <ContactMenu />
+
+            <aside class="aside__right" /> 
 
         </main>
 
