@@ -5,7 +5,7 @@ import Testimonials from "./Testimonials";
 import StayProd from "./StayProd";
 import SignUp from "./SignUp";
 import CompInfo from "./CompInfo";
-import AboutMenu from "./AboutMenu";
+import AboutMenu from "./AboutMenu/AboutMenu";
 import ContactMenu from "./ContactMenu";
 
 const Body = () => {
