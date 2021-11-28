@@ -1,9 +1,11 @@
 import React from "react";
+import "./StayProd.css";
+import picture1 from "../../images/illustration-stay-productive.png";
 
 const StayProd = () => {
     return(
         <div>
-            <img src="./images/illustration-stay-productive.png" />
+            <img class="stayProdImg" src={picture1} alt="Stay Productive!" />
 
             <h1>Stay productive, wherever you are</h1>
 
