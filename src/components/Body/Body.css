@@ -1,15 +1,22 @@
-.container{
-    font-weight: 700;
-}
-
 @media only screen and (max-width: 375px) {
-
+   
     div {
         background-color: hsl(216, 53%, 9%);
+    }
+
+    h1 {
+        font-family: Raleway;
+        font-weight: 400;
+    }
+
+    p {
+        font-family: Open Sans;
+        font-weight: 400;
     }
 
 }
 
 @media only screen and (max-width: 1440px) {
+
 
 }

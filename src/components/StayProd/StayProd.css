@@ -1,0 +1,21 @@
+@media only screen and (max-width: 375px) {
+
+    div {
+        word-wrap: normal;
+    }
+
+    h1 {
+        font-family: Raleway;
+        font-weight: 400;
+    }
+
+    .stayProdImg {
+        justify-content: center;
+        width: 75vw;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+}

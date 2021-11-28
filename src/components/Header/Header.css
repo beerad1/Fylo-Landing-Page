@@ -1,0 +1,21 @@
+@media only screen and (max-width: 375px) {
+   
+    * {
+        font-family: Open Sans;
+    }
+
+    .logo__left {
+        margin: 3vw;
+        float: left;
+    }
+
+    .menu__right {
+        display: flex;
+        text-decoration: none;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+}

@@ -1,4 +1,4 @@
-const quotes = [
+export const quotes = [
     {
         id: 1, 
         text: "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
@@ -22,6 +22,6 @@ const quotes = [
     },
 ]
 
-// export const getQuotes = () => {
-//     return quotes;
-// };
+export const getQuotes = () => {
+    return quotes;
+};
