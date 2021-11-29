@@ -3,7 +3,7 @@ import GetStarted from "../GetStarted/GetStarted";
 import InfoGrid from "../InfoGrid/InfoGrid";
 import Testimonials from "../Testimonials/Testimonials";
 import StayProd from "../StayProd/StayProd";
-import SignUp from "../SignUp";
+import SignUp from "../SignUp/SignUp";
 import CompInfo from "../CompInfo";
 import AboutMenu from "../AboutMenu/AboutMenu";
 import ContactMenu from "../ContactMenu";
