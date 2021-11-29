@@ -4,7 +4,7 @@ import "./InfoGrid.css";
 const InfoGrid = () => {
     return(
 
-        <div class="infoContainer">
+        <div class="infoContainer infoGrid">
 
             <div>
 
