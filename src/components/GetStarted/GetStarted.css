@@ -32,7 +32,6 @@
     }
 
     .getStartedImg {
-        background-color: white;
         justify-content: center;
         width: 75vw;
     }
@@ -48,6 +47,8 @@
 @media only screen and (max-width: 1440px) {
 
     .getStartedBtn {
+        height: 4vh;
+        width: 20vw;
         font-weight: 700;
     }
 
